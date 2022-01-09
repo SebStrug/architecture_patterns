@@ -59,6 +59,7 @@ def test_repository_can_retrieve_a_batch_with_allocations(session):
     retrieved = repo.get("batch1")
 
     expected = model.Batch("batch1", "GENERIC-SOFA", 100, eta=None)
+    print(retrieved)
     assert retrieved == expected  # Batch.__eq__ only compares reference
     assert retrieved.sku == expected.sku
     assert retrieved._purchased_quantity == expected._purchased_quantity
