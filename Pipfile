@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sqlalchemy = "*"
+flask = "*"
+psycopg2-binary = "*"
+redis = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-icdiff = "*"
+mypy = "*"
+pylint = "*"
+requests = "*"
+tenacity = "*"
+
+[requires]
+python_version = "3.8"
