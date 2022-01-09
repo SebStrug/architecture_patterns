@@ -1,4 +1,4 @@
-# Example application code for the python architecture book
+# Code for 'Architecture Patterns with Python' by Harry Percival & Bob Gregory
 
 ## Chapters
 
